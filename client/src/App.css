@@ -1,0 +1,24 @@
+.sent {
+    text-align: start;
+    background-color: azure;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.received {
+    text-align: end;
+    background-color: beige;
+    margin-top: 1rem;
+    border-radius: 2rem;
+
+}
+
+body{
+    background-color: rgb(53, 51, 51);
+}
+
+.containerForm{
+    display: flex;
+    justify-content: center;
+}
+
