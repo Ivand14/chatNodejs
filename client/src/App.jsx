@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   const recivedMessage = (message) => {
-    setMessages((state) => [...state, { ...message, type: 'received' }]);
+    setMessages((state) => [...state, { ...message, type: 'received',from:'Other' }]);
   };
 
   return (
